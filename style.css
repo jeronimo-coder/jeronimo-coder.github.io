@@ -1,0 +1,538 @@
+html {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.contenedorOpciones {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedorOpciones a {
+  margin: 10px 0;
+  padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #f3c892;
+}
+
+#dropdownMenuLink {
+  background-color: #fff !important;
+  border: none;
+  color: #f3c892;
+}
+
+#dropdownMenuLink:hover {
+  color: #a3da8d;
+}
+.contenedorOpciones a:hover {
+  color: #a3da8d;
+}
+
+.logosRedes {
+  display: flex;
+}
+
+.logosRedes a {
+  text-decoration: none;
+  margin: 20px;
+}
+
+.logosRedes img {
+  height: 30px;
+}
+
+/* Iniciamos con el slider */
+
+.presentacion {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  background-image: url("/Imagenes/TULUGAR.png");
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+/* Seccion acerca de las cabañas*/
+
+/* Seccion de disponibilidad*/
+
+.muestra h1 {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 80px;
+  color: #f3c892;
+}
+
+.muestra {
+  width: 100%;
+  height: auto;
+  background-image: url("/Imagenes/Fondos-logos/fondo.svg");
+}
+
+/*
+.dispoYCabañas{
+    display: grid;
+    grid-template-rows: 80px 700px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+*/
+.cabañas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.cabañas a {
+  text-decoration: none;
+  text-align: center;
+  color: rgb(243, 200, 146);
+}
+
+.cabañas a div h3 {
+  padding: 160px 0;
+}
+.cabañaGrande {
+  width: 350px;
+  height: 350px;
+  border-radius: 35px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url(/Imagenes/desdesAfueraVerano.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: box-shadow 0.6s;
+}
+
+.cabañaPequeña {
+  width: 350px;
+  height: 350px;
+  border-radius: 35px;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url(/Imagenes/cabañaPequeña-min.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: box-shadow 0.6s;
+}
+
+.cabañaGrande ul,
+.cabañaPequeña ul {
+  position: relative;
+  bottom: 220px;
+  text-align: left;
+  visibility: hidden;
+}
+
+.cabañaGrande:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 7px #146356;
+  color: rgb(243, 200, 146);
+}
+
+.cabañaPequeña:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 7px #146356;
+  color: rgb(243, 200, 146);
+}
+
+.cabañaPequeña:hover ul,
+.cabañaGrande:hover ul {
+  visibility: visible;
+}
+
+.cabañaPequeña:hover h3,
+.cabañaGrande:hover h3 {
+  visibility: hidden;
+}
+
+/* INFORMACION Y FORMULARIO */
+
+#section2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.textoPresentacion {
+  width: 100%;
+  background-image: url("Imagenes/Fondos-logos/Wave.svg");
+  margin: 0;
+}
+.textoPresentacion p {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 26px;
+}
+
+#formulario1 {
+  width: 400px;
+}
+
+#spinner {
+  display: none;
+  justify-content: center;
+  margin-top: 15px;
+}
+.disponibilidad {
+  margin: 30px 0;
+  padding: 5px 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: solid 1px #ddd;
+}
+
+.btn-outline-dark {
+  width: 100%;
+  margin: 10px 0;
+  color: white !important;
+  border: none !important;
+  background-color: #146356 !important;
+}
+
+.disponibilidad label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ACTIVIDADES */
+
+#section3 .textoActividad {
+  font-size: 30px;
+  text-align: center;
+}
+
+.actividades {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 250px;
+  margin: auto;
+  background-image: url(/Imagenes/fondoActividades-min.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.actividades .imagenes {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  height: auto;
+  background-color: rgb(243, 200, 146, 0.27);
+  border-radius: 10px;
+}
+
+.actividades .imagenes p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.actividades .imagenes .mb-3 {
+  margin: 10px auto;
+  width: 50%;
+}
+
+/* TESTIMONIOS */
+.testimonial-slider {
+  height: auto;
+}
+
+.testimonial-slider .carousel-indicators button {
+  width: 30px;
+  height: 30px;
+  background-color: #f3c892;
+  border-radius: 100%;
+}
+
+/* COMO LLEGAR */
+
+#comoLlegar {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+/* FOOTER */
+
+.datosDeContacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #a3da8d;
+  margin: 10px 0;
+}
+
+.datosDeContacto p {
+  margin: 10px 10px;
+}
+
+.redes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+.redes a img:hover {
+  background-color: #146356;
+  border-radius: 100px;
+}
+
+/* DIFERENTES TAMAÑOS */
+
+@media screen and (max-width: 750px) {
+  .presentacion {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("/Imagenes/TULUGAR.png");
+    background-size: 100% 100%;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 1250px) and (min-width: 750px) {
+  .presentacion {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("/Imagenes/TULUGAR-min.png");
+    background-size: 100% 100%;
+    background-position: center;
+  }
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+section{
+	float: left;
+	position: relative;
+	padding: 30px 0;
+	background: #fcfcfd;
+	z-index: 1;
+	width: 100%;
+}
+.section-title{
+	float: left;
+	position: relative;
+	width: 100%;
+	padding-bottom: 40px; 
+}
+.section-title p{
+	color: #7d93b2;
+	font-size: 13px;
+	line-height: 20px;
+	max-width: 550px;
+	margin: 0 auto;
+}
+.section-title h2 {
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #a3da8d;
+	font-size: 34px;
+	font-weight: 800;
+	position: relative;
+}
+.section-separator {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 20px 0;
+}
+.section-separator:before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 0;
+	height: 3px;
+	width: 50px;
+	border-radius: 3px;
+	z-index: 2;
+	background-color: #146356;
+	margin-left: -25px;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.listing-carousel-button{
+	position: absolute;
+	top: 50%;
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: -25px;
+	z-index: 100;
+	cursor: pointer;
+	background: #a3da8d;
+	box-shadow: 0 9px 26px rgba(58, 87,135,0.45);
+	transition: all 200ms linear;
+	outline: none;
+}
+.listing-carousel-button.listing-carousel-button-next{
+	right: -30px;
+	padding-right: 20px;
+	border-radius: 60px 0 0 60px;
+}
+.listing-carousel-button.listing-carousel-button-prev{
+	left: -30px;
+	padding-left: 20px;
+	border-radius: 0 60px 60px 0;
+}
+.listing-carousel-button.listing-carousel-button-next:hover{
+	right: -15px;
+	background: rgba(6,27,65,0.4);
+}
+.listing-carousel-button.listing-carousel-button-prev:hover{
+	left: -15px;
+	background: rgba(6,27,65,0.4);
+}
+.testi-item {
+	transition: all .3s ease-in-out;
+	transform: scale(0.9);
+	opacity: 0.9;
+}
+.testimonials-text {
+	padding: 75px 50px 75px;
+	overflow:hidden;
+	background: #f5f6fa;
+	border:1ps solid #f1f1f1;
+	border-radius: 10px;
+	transition: all .3s ease-in-out;
+}
+.testimonials-text-after{
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	position: absolute;
+	color: #ccc;
+	opacity: .3;
+	font-size: 35px;
+	transition: all 400ms linear;
+	bottom: 25px;
+	right: 30px;
+}
+.testimonials-text-before{
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	position: absolute;
+	color: #ccc;
+	opacity: .3;
+	font-size: 35px;
+	transition: all 400ms linear;
+	top: 25px;
+	left: 30px;
+}
+.testimonials-text .listing-rating{
+	float: none;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.listing-rating i{
+	color: #a3da8d;
+}
+.testimonials-avatar h3{
+	font-weight: 600;
+	color: #F3C892;
+	font-size: 18px;
+}
+.testimonials-avatar h4{
+	 font-weight:400;
+	 font-size:12px;
+	 padding-top:6px;
+	 color:#F3C892;
+}
+.testimonials-carousel .swiper-slide{
+	padding: 30px 0;
+}	 
+.testi-avatar{
+	position: absolute;
+	left: 50%;
+	top: -30px;
+	width: 90px;
+	height: 90px;
+	margin-left: -45px;
+	z-index: 20;
+}
+.testi-avatar img{
+	width: 90px;
+	height: 90px;
+	float: left;
+	border-radius: 100%;
+	border:6px solid #fff;
+	box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
+}
+.swiper-slide-active .testimonials-text {
+	background: #fff;
+	box-shadow: 0 9px 26px rgba(58, 87,135,0.1);
+}
+.testimonials-text p{
+	color: #878c9f;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	line-height: 24px;
+	padding-bottom: 10px;
+	font-weight: 500;
+}
+.text-link{
+	position: absolute;
+	bottom:0;
+	padding: 15px 0;
+	border-radius: 10px 10px 0 0;
+	background: #f9f9f9;
+	border:1px solid #eee;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.03);
+	left: 50%;
+	width: 200px;
+	margin-left: -100px;
+}
+.swiper-slide-active .testi-item{
+	opacity: 1;
+	transform: scale(1.0);
+}
+.tc-pagination{
+	float: left;
+	margin-top: 10px;
+	width: 100% !important;
+}
+.tc-pagination_wrap {
+	position: absolute;
+	bottom: -40px;
+	left: 0;
+	width: 100%;
+}
+.tc-pagination2{
+	float: none;
+	display: inline-block;
+	padding: 14px 0;
+	background: #fff;
+	border-radius: 30px;
+	min-width: 250px;
+	border-bottom: 0;
+}
+.tc-pagination .swiper-pagination-bullet, .tc-pagination2.swiper-pagination-bullet{
+	opacity: 1;
+	background: #F3C892;
+	margin:0 2px;
+	width: 10px;
+	height: 10px;
+	transition: all 300ms ease-in-out;
+} */

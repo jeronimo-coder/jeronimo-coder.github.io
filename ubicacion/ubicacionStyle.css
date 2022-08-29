@@ -1,0 +1,32 @@
+#ubicacion{
+    text-align: center;
+}
+
+#ubicacion h1, iframe{
+    margin-bottom: 30px;
+}
+
+#transporte{
+    text-align: center;
+}
+
+.horariosColectivos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15vh;
+    justify-content: center;
+    margin: 30px;
+}
+
+.desdeBariloche, .desdeCatedral{
+    background-color: #A3DA8D;
+    border-radius: 10px;
+    width: 350px;
+    height: auto;
+}
+
+.desdeBariloche, .desdeCatedral th, td{
+    text-align: center;
+    margin: 10px;
+}
+

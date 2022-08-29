@@ -1,0 +1,170 @@
+
+
+/*   */
+
+#dropdownMenuLink{
+    background-color: #fff !important;
+    border: none;
+    color:#F3C892;
+}
+
+#carouselExampleCaptions img{
+    background-size:contain;
+    height: 450px;
+}
+
+#carouselExampleCaptions{
+    width: 100%;
+}
+
+
+.actividades{
+    text-align: center;
+}
+
+#encuentraMas p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fotosAct{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.uno{
+    background-color: #146356;
+    height: 300px;
+    width: 450px;
+}
+
+
+.dos{
+    background-color: #146356;
+    height: 300px;
+    width: 450px;
+}
+
+
+.tres{
+    background-color: #146356;
+    height: 300px;
+    width: 450px;
+}
+
+
+.cuatro{
+    background-color: #146356;
+    height: 300px;
+    width: 450px;
+    margin-bottom: 150px;
+}
+
+.uno img, .tres img{
+    width: 400px;
+    position: relative;
+    left: 140px;
+    top: 50px;
+    box-shadow: #A3DA8D 1px 1px 100px 1px;
+    border-radius: 5px;
+}
+
+.cuatro img, .dos img{
+    width: 350px;
+    position: relative;
+    left: -100px;
+    top: 50px;
+    box-shadow: #A3DA8D 1px 1px 100px 1px;
+    border-radius: 5px;
+}
+
+
+.conteinerCollapsible{
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.collapsible {
+    background-color: rgb(255, 255, 255);
+    color: #146356;
+    cursor: pointer;
+    padding: 18px;
+    width: 500px;
+    border: 1px solid #cdcdcd;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #A3DA8D;
+  }
+  
+  .content {
+    width: 500px;
+    text-align: center;
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #ffffff;
+  }
+
+  .accordion_button{
+    color: #146356 !important;
+    font-weight: bold;
+}
+
+.content a{
+    text-decoration: none;
+    list-style: none;
+    color:#146356 ;
+}
+
+#carrito{
+    width: 80%;
+    text-align: center;
+}
+
+#lista-carrito{
+    width: 100%;
+    text-align: center;
+}
+
+.borrar-curso{
+    color: #A3DA8D;
+    background-color: #146356;
+    padding: 10px;
+    border: none;
+    border-radius: 100%;
+    text-decoration: none;
+}
+
+
+.columns{
+    padding: 20px;
+}
+
+.info-card{
+    padding: 5px;
+    text-align: center;
+}
+
+.agregar-carrito{
+    background-color: #F3C892 !important;
+    border: none !important;
+    color: #146356 !important;
+}
+
+#vaciar-carrito{
+  border: none;
+  background-color: #F3C892;
+  color: #146356;  
+  height: 30px;
+  border-radius: 5px;
+}

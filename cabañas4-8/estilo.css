@@ -1,0 +1,178 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .contenedorOpciones {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contenedorOpciones a {
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #F3C892;
+  }
+  
+  .contenedorOpciones a:hover{
+      color: #A3DA8D;
+  }
+  
+  .logosRedes {
+    display: flex;
+  }
+  
+  .logosRedes a {
+    text-decoration: none;
+    margin: 20px;
+  }
+  
+  .logosRedes img {
+    height: 30px;
+  }
+
+  /* FOTOS */
+  #section1{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      background-image: url("/Imagenes/Fondos y logos/Simple\ Shiny.svg");
+  }
+
+  .fotoGrande{
+      padding: 10px;
+  }
+  .fotoGrande img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+  }
+
+/*   .galeria{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  } */
+  .galeria{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    gap:40px;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .cover{
+      background-size: cover;
+      background-position: center center;
+      border-radius: 5px;
+     /*  border-bottom: solid 4px white;
+      border-right: solid 4px white; */
+  }
+
+  /* DESCRIPCIÓN*/
+
+  #section2 h2{
+    padding: 10px 0 0 20px;
+    color: #146356;
+  }
+
+  #section2 p{
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+  }
+
+  /*SECTION 3*/
+
+  #section3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  /* SERVICIOS */
+
+  .servicios{
+    margin-right: 50px;
+  }
+
+  #h4Servi{
+    text-align: right;
+    padding: 10px 20px 10px 0;
+  }
+
+  .servicios ul li{
+    direction: rtl;
+    list-style:none;
+    text-align: right;
+  }
+  .servicios ul li::before {
+    content: "\2022";
+    color: #146356;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-right: 1em;
+  }
+
+
+  /* CONTAINER FORMULARIO */
+  .container{
+    width: 400px !important;
+  }
+
+  #formulario1{
+    width: 400px;
+}
+.disponibilidad{
+    margin: 0 0;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: solid 1px #ddd;
+}
+
+.btn-outline-dark{
+    width: 100%;
+    margin: 10px 0;
+    color: white !important;
+    border: none !important;
+    background-color: #146356 !important;
+}
+
+.disponibilidad label{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* FOOTER*/
+
+.datosDeContacto{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  background-color: #A3DA8D;
+  margin: 10px 0;
+}
+
+.datosDeContacto p{
+  margin: 10px 10px;
+}
+
+.redes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+.redes a img:hover{
+  background-color: #146356;
+  border-radius: 100px;
+}

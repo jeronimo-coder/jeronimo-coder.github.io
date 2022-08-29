@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="../Cabañas Bariloche/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <script src="../Cabañas Bariloche/bootstrap-5.2.0-dist/js/bootstrap.min.js"></script>
+    <title>Cabañas ANTU-PEKUM</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedorOpciones">
+        <a href="index.html">Inicio</a>
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle btn-sm" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            Cabañas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="/cabañas2-4/pequeña.html">2-4 personas</a></li>
+            <li><a class="dropdown-item" href="/cabañas4-8/grande.html">4-8 personas</a></li>
+          </ul>
+        </div>
+        <a href="/actividades/actividades.html">Actividades</a>
+        <a href="/ubicacion/ubicacion.html">Ubicación</a>
+        <a href="/sobreNosotros/nosotros.html">Sobre Nosotros</a>
+      </div>
+      <div class="logosRedes">
+        <a href="#"><img src="/Imagenes/Fondos-logos/whatsapp-min.png" alt="whatsapp" /></a>
+        <a href="#"><img src="/Imagenes/Fondos-logos/instagram-min.png" alt="instagram" /></a>
+        <a href="#"><img src="/Imagenes/Fondos-logos/facebook-min.png" alt="facebook" /></a>
+      </div>
+    </header>
+    <section>
+      <div class="presentacion"></div>
+
+      <div class="muestra">
+        <h1>Cabañas en Bariloche</h1>
+        <div class="cabañas">
+          <a href="/cabañas4-8/grande.html">
+            <div class="cabañaGrande">
+              <h3 id="h33">Cabañas para 4-8</h3>
+              <ul class="listaInfoCabania">
+                <li>2 camas matrimoniales, 4 individuales</li>
+                <li>Tres baños (Dos de ellos completos)</li>
+                <li>Parrilla y cochera integrada</li>
+                <li>Wifi</li>
+                <li>Servicio de limpieza</li>
+              </ul>
+            </div>
+          </a>
+
+          <a href="/cabañas2-4/pequeña.html">
+            <div class="cabañaPequeña">
+              <h3>Cabañas para 2-4</h3>
+              <ul class="listaInfoCabania">
+                <li>Cama matrimonial, 3 individuales</li>
+                <li>Dos baños</li>
+                <li>Parrilla</li>
+                <li>Wifi</li>
+                <li>Servicio de limpieza</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="section2">
+      <div class="textoPresentacion">
+        <p>
+          Con una vista paradisíaca hacia la base del <b>Cerro Catedral</b> se
+          encuentran las cabañas <b>ANTU-PUKEM</b>. Un complejo de cabañas donde
+          podrán olvidarse de todo y compartir con los suyos toda la naturaleza
+          de la patagonia Argentina enmarcada en el paisaje de
+          <b>Villa Catedral</b>, ya sea para el esquiador o el que guste de la
+          maravillosa atracción de los paisajes, destinos turísticos y
+          actividades de el mejor centro de esqui de Sudamérica.
+        </p>
+      </div>
+            <form id="formulario1" action="">
+                <div class="disponibilidad">
+                  <div class="nombre">
+                    <label for=""> Nombre </label>
+                    <input
+                      id="nombre";
+                      class="form-control"
+                      type="text"
+                      placeholder=""
+                      aria-label="default input example"
+                    />
+                  </div>
+                  <div class="apellido">
+                    <label for=""> Apellido </label>
+                    <input
+                      id="apellido"
+                      class="form-control"
+                      type="text"
+                      placeholder=""
+                      aria-label="default input example"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleDropdownForEmail1" class="form label">
+                      Email Addres
+                    </label>
+                    <input
+                      id="email"
+                      type="email"
+                      class="form-control"
+                      id="exampleDropdownForEmail1"
+                      placeholder="ejemplo@gmail.com"
+                    />
+                  </div>
+                  <div class="fechaIngreso">
+                    <label for=""> Fecha ingreso </label>
+                    <input
+                      id="fechaIngreso"
+                      class="form-control"
+                      type="date"
+                      placeholder=""
+                      aria-label="default input example"
+                      min="0"
+                      max="20"
+                    />
+                  </div>
+                  <div class="fechaSalida">
+                    <label for=""> Fecha salida </label>
+                    <input
+                      id="fechaSalida"
+                      class="form-control"
+                      type="date"
+                      placeholder=""
+                      aria-label="default input example"
+                      min="0"
+                      max="20"
+                    />
+                  </div>
+                  <div class="cantAdultos">
+                    <label for="exampleDropdownForEmail1" class="form label">
+                      Adultos
+                    </label>
+                    <input
+                      id="adultos"
+                      class="form-control"
+                      type="number"
+                      placeholder=""
+                      aria-label="default input example"
+                      min="0"
+                      max="20"
+                    />
+                  </div>
+                  <div class="cantNinios">
+                    <label for="exampleDropdownForEmail1" class="form label">
+                      Niños *
+                    </label>
+                    <input
+                      id="ninios"
+                      class="form-control"
+                      type="number"
+                      placeholder=""
+                      aria-label="default input example"
+                      min="0"
+                      max="20"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"
+                      >Consulta</label
+                    >
+                    <textarea
+                      id="consulta"
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                    ></textarea>
+                    <div id="contenedorSpinner" class="text-center">
+                      <div id="spinner" class="spinner-border" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                    </div>
+                    <button id="enviar" class="btn btn-outline-dark" type="submit">Enviar</button>
+                  </div>
+                </div>
+              </form>
+    </section>
+    <section id="section3">
+      <p class="textoActividad">
+        En cualquier época del año cabañas <b>ANTU-PUKEM</b> ofrece
+        asesoramiento en turismo y deportes de montaña.
+      </p>
+      <div class="actividades">
+        <div class="imagenes">
+          <p>Disfruta de las más increibles experiencias</p>
+          <div class="mb-3">
+            <a href="/actividades/actividades.html">
+              <button type="button" class="btn btn-outline-dark" href="">
+                Actividades
+              </button>
+            </a> 
+          </div>
+        </div>
+      </div>
+      <section>
+       
+      <div id="comoLlegar">
+        <br>
+        <h2>Como llegar</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.414217544167!2d-71.44113768501195!3d-41.1691318411091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a71c9aa3e9baf%3A0x864e59c48b481f09!2sCABA%C3%91AS%20ANTU%20PUKEM!5e0!3m2!1ses!2sar!4v1650479517821!5m2!1ses!2sar"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <footer>
+      <div class="datosDeContacto">
+        <p><strong>Teléfonos desde el exterior</strong> +54 9 11 6415 0005</p>
+        <p><strong>Teléfonos desde Argentina</strong> +54 2984632911</p>
+        <br />
+        <p><strong>Dirección: </strong> F.Jerman entre M.Jereb y Los Ñires. Villa Catedral, Bariloche</p>
+        <p><strong>Email: info@antupekum.com </strong></p>
+      </div>
+      <div class="redes">
+        <a href="https://www.facebook.com" title="facebook iconos">
+          <img src="/Imagenes/Fondos-logos/facebook-min.png" alt="facebook" width="30px" />
+        </a>
+        <a href="#" title="instagram iconos">
+          <img src="/Imagenes/Fondos-logos/instagram-min.png" alt="instagram" width="30px" />
+        </a>
+        <a href="#" title="tripadvisor iconos">
+          <img
+            src="/Imagenes/Fondos-logos/logotipo-de-tripadvisor-min.png"
+            alt="tripadvisor"
+            width="30px"
+          />
+        </a>
+        <a href="#" title="whatsapp iconos">
+          <img src="/Imagenes/Fondos-logos/whatsapp-min.png" alt="whatsapp" width="30px" />
+        </a>
+      </div>
+    </footer>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script> -->
+  <script src="script.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+  <!-- <script>
+    //   all ------------------
+function initParadoxWay() {
+    "use strict";
+   
+    if ($(".testimonials-carousel").length > 0) {
+        var j2 = new Swiper(".testimonials-carousel .swiper-container", {
+            preloadImages: false,
+            slidesPerView: 1,
+            spaceBetween: 20,
+            loop: true,
+            grabCursor: true,
+            mousewheel: false,
+            centeredSlides: true,
+            pagination: {
+                el: '.tc-pagination',
+                clickable: true,
+                dynamicBullets: true,
+            },
+            navigation: {
+                nextEl: '.listing-carousel-button-next',
+                prevEl: '.listing-carousel-button-prev',
+            },
+            breakpoints: {
+                1024: {
+                    slidesPerView: 3,
+                },
+                
+            }
+        });
+    }
+    
+// bubbles -----------------
+    
+    
+    setInterval(function () {
+        /* var size = randomValue(sArray);
+        $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>'); */
+        $('.individual-bubble').animate({
+            'bottom': '100%',
+            'opacity': '-=0.7'
+        }, 4000, function () {
+            $(this).remove()
+        });
+    }, 350);
+    
+}
+
+//   Init All ------------------
+$(document).ready(function () {
+    initParadoxWay();
+});
+  </script> -->
+  </body>
+
+ 
+</html>

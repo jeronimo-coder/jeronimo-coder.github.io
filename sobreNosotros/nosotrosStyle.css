@@ -1,0 +1,42 @@
+#nosotros, #masInfo{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.uno{
+    width: 40%;
+    background-color: #A3DA8D;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.uno h2{
+    margin-top: 100px;
+}
+
+.dos, .cuatro{
+    width: 50%;
+    height: auto;
+}
+
+.dos, .cuatro p{
+    padding: 20px;
+}
+
+#masInfo{
+    margin-top: 30px;
+}
+
+.tres{
+    width: 40%;
+    background-color: #F3C892;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.tres h2{
+    margin-top: 100px;
+}
+
